@@ -333,7 +333,6 @@ switch (_typeofUnit) do
 // LOADOUT: COMMANDER
 	case "co":
 	{
-		_attachments = [_attach1,_scope4];
 		_unit addmagazines [_glriflemag,4];
 		_unit addmagazines [_glriflemag_tr,3];
 		_unit addmagazines [_glmag,2];
@@ -355,7 +354,7 @@ switch (_typeofUnit) do
 
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
 	case "dc":
-	{
+	{	
 		_unit addmagazines [_glriflemag,4];
 		_unit addmagazines [_glriflemag_tr,3];
 		_unit addmagazines [_glmag,2];
