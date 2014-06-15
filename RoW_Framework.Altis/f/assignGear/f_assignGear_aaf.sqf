@@ -79,9 +79,9 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "hlc_rifle_ak74";
-_riflemag = "hlc_30Rnd_545x39_B_AK";
-_riflemag_tr = "hlc_30Rnd_545x39_T_AK";
+_rifle = "R3F_Famas_F1";
+_riflemag = "R3F_25Rnd_556x45_FAMAS";
+_riflemag_tr = "R3F_25Rnd_556x45_TRACER_FAMAS";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
 _carbine = "R3F_Famas_surb";
@@ -99,9 +99,9 @@ _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
 // Rifle with GL and HE grenades (CO, DC, FTLs)
-_glrifle = "hlc_rifle_aks74_GL";
-_glriflemag = "hlc_30Rnd_545x39_B_AK";
-_glriflemag_tr = "hlc_30Rnd_545x39_T_AK";
+_glrifle = "R3F_Famas_F1_M203";
+_glriflemag = "R3F_25Rnd_556x45_FAMAS";
+_glriflemag_tr = "R3F_25Rnd_556x45_TRACER_FAMAS";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Smoke for FTLs, Squad Leaders, etc
@@ -116,8 +116,8 @@ _glflareyellow = "UGL_FlareYellow_F";
 _glflaregreen = "UGL_FlareGreen_F";
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = "hgun_ACPC2_F";
-_pistolmag = "9Rnd_45ACP_Mag";
+_pistol = "R3F_PAMAS";
+_pistolmag = "R3F_15Rnd_9x19_PAMAS";
 
 // Grenades
 _grenade = "HandGrenade";
@@ -175,17 +175,17 @@ _MMGmag = "hlc_30Rnd_545x39_B_AK";
 _MMGmag_tr = "hlc_30Rnd_545x39_T_AK";
 
 // Rifleman AT
-_RAT = "launch_RPG32_F";
-_RATmag = "RPG32_F";
+_RAT = "R3F_AT4CS";
+_RATmag = "R3F_AT4CS_Mag";
 
 // Mortar
 _MTR = "B_Mk6Mortar_Wpn";
 _MTRmount = "B_Mk6Mortar_Support";
 
 // Medium AT
-_MAT = "launch_NLAW_F";
-_MATmag1 = "NLAW_F";
-_MATmag2 = "NLAW_F";
+_MAT = "R3F_ERYX";
+_MATmag1 = "R3F_ERYX_Mag";
+_MATmag2 = "R3F_ERYX_Mag";
 
 // Surface Air
 _SAM = "launch_I_Titan_F";
