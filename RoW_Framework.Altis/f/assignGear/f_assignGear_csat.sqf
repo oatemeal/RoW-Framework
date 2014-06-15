@@ -151,14 +151,14 @@ _baguav = "O_UAV_01_backpack_F";			// used by UAV operator
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "LMG_Mk200_F";
-_ARmag = "200Rnd_65x39_cased_Box";
-_ARmag_tr = "200Rnd_65x39_cased_Box_Tracer";
+_AR = "hlc_rifle_rpk";
+_ARmag = "hlc_30Rnd_545x39_B_AK";
+_ARmag_tr = "hlc_30Rnd_545x39_T_AK";
 
 // Medium MG
-_MMG = "LMG_Zafir_F";
-_MMGmag = "150Rnd_762x51_Box";
-_MMGmag_tr = "150Rnd_762x51_Box_Tracer";
+_MMG = "hlc_rifle_rpk";
+_MMGmag = "hlc_30Rnd_545x39_B_AK";
+_MMGmag_tr = "hlc_30Rnd_545x39_T_AK";
 
 // Rifleman AT
 _RAT = "launch_RPG32_F";
@@ -389,7 +389,7 @@ switch (_typeofUnit) do
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,2];
+		_unit addmagazines [_ARmag,4];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_mgrenade,1];
@@ -429,7 +429,7 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER
 	case "mmgg":
 	{
-		_unit addmagazines [_MMGmag,2];
+		_unit addmagazines [_MMGmag,6];
 		_unit addmagazines [_MMGmag_tr,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _MMG;
