@@ -165,14 +165,14 @@ _sparebarrel = "AGM_SpareBarrel";			// For LMG/MMG Only
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "hlc_rifle_rpk";
-_ARmag = "hlc_30Rnd_545x39_B_AK";
-_ARmag_tr = "hlc_30Rnd_545x39_T_AK";
+_AR = "R3F_Minimi_762";
+_ARmag = "R3F_100Rnd_762x51_MINIMI";
+_ARmag_tr = "R3F_100Rnd_762x51_MINIMI";
 
 // Medium MG
-_MMG = "hlc_rifle_rpk";
-_MMGmag = "hlc_30Rnd_545x39_B_AK";
-_MMGmag_tr = "hlc_30Rnd_545x39_T_AK";
+_MMG = "hlc_lmg_M60E4";
+_MMGmag = "hlc_100Rnd_762x51_B_M60E4";
+_MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
 _RAT = "R3F_AT4CS";
