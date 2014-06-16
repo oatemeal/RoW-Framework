@@ -174,8 +174,8 @@ _MMGmag = "hlc_100Rnd_762x51_B_M60E4";
 _MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
-_RAT = "launch_NLAW_F";
-_RATmag = "NLAW_F";
+_RAT = "R3F_AT4CS";
+_RATmag = "R3F_AT4CS_Mag";
 
 // Sniper
 _SNrifle = "srifle_LRR_LRPS_F";
@@ -451,7 +451,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,1];		
 		_unit addmagazines [_smokegrenade,2];
 		["rat"] call _backpack;
-		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag,1];
+		//(unitBackpack _unit) addMagazineCargoGlobal [_RATmag,1];
 		_unit addweapon _RAT;
 		{_unit addItem _bandage} foreach [1,2,3,4,5];
 		{_unit addItem _morphine} foreach [1,2];
