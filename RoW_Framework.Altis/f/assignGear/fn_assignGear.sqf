@@ -94,7 +94,7 @@ if (_faction == "blu_f") then {
 // The following block of code executes only if the unit is in a CSAT slot; it
 // automatically includes a file which contains the appropriate equipment data.
 
-if (_faction == "opf_f") then {
+if (_faction == "tec_csat") then {
 	#include "f_assignGear_csat.sqf"
 };
 
