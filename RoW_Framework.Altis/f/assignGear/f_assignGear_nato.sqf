@@ -88,9 +88,9 @@ _carbinemag = "30rnd_556x45_STANAG";
 _carbinemag_tr = "FHQ_30Rnd_556x45_Stanag_Tracer_Red";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
-_smgmag_tr = "30Rnd_45ACP_Mag_SMG_01_tracer_green";
+_smg = "R3F_MP5SD";
+_smgmag = "R3F_30Rnd_9x19_MP5";
+_smgmag_tr = "R3F_30Rnd_9x19_MP5";
 
 // Diver
 _diverWep = "arifle_SDAR_F";
@@ -164,14 +164,14 @@ _sparebarrel = "AGM_SpareBarrel";			// For LMG/MMG Only
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "arifle_MX_SW_F";
-_ARmag = "100Rnd_65x39_caseless_mag";
-_ARmag_tr = "100Rnd_65x39_caseless_mag_Tracer";
+_AR = "R3F_Minimi";
+_ARmag = "R3F_200Rnd_556x45_MINIMI";
+_ARmag_tr = "R3F_200Rnd_556x45_MINIMI";
 
 // Medium MG
-_MMG = "LMG_Zafir_F";
-_MMGmag = "150Rnd_762x51_Box";
-_MMGmag_tr = "150Rnd_762x51_Box_Tracer";
+_MMG = "hlc_lmg_M60E4";
+_MMGmag = "hlc_100Rnd_762x51_B_M60E4";
+_MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
 _RAT = "launch_NLAW_F";

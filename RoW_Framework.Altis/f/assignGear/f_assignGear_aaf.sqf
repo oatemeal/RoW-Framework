@@ -79,19 +79,19 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "hlc_rifle_ak74";
-_riflemag = "hlc_30Rnd_545x39_B_AK";
-_riflemag_tr = "hlc_30Rnd_545x39_T_AK";
+_rifle = "R3F_Famas_F1";
+_riflemag = "R3F_25Rnd_556x45_FAMAS";
+_riflemag_tr = "R3F_25Rnd_556x45_TRACER_FAMAS";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "hlc_rifle_ak74";
-_carbinemag = "hlc_30Rnd_545x39_B_AK";
-_carbinemag_tr = "hlc_30Rnd_545x39_T_AK";
+_carbine = "R3F_Famas_surb";
+_carbinemag = "R3F_30Rnd_556x45_FAMAS";
+_carbinemag_tr = "R3F_30Rnd_556x45_TRACER_FAMAS";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_02_F";
-_smgmag = "30Rnd_9x21_Mag";
-_smgmag_tr = "30Rnd_9x21_Mag";
+_smg = "R3F_MP5SD";
+_smgmag = "R3F_30Rnd_9x19_MP5";
+_smgmag_tr = "R3F_30Rnd_9x19_MP5";
 
 // Diver
 _diverWep = "arifle_SDAR_F";
@@ -99,9 +99,9 @@ _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
 // Rifle with GL and HE grenades (CO, DC, FTLs)
-_glrifle = "hlc_rifle_aks74_GL";
-_glriflemag = "hlc_30Rnd_545x39_B_AK";
-_glriflemag_tr = "hlc_30Rnd_545x39_T_AK";
+_glrifle = "R3F_Famas_F1_M203";
+_glriflemag = "R3F_25Rnd_556x45_FAMAS";
+_glriflemag_tr = "R3F_25Rnd_556x45_TRACER_FAMAS";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Smoke for FTLs, Squad Leaders, etc
@@ -116,8 +116,8 @@ _glflareyellow = "UGL_FlareYellow_F";
 _glflaregreen = "UGL_FlareGreen_F";
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = "hgun_ACPC2_F";
-_pistolmag = "9Rnd_45ACP_Mag";
+_pistol = "R3F_PAMAS";
+_pistolmag = "R3F_15Rnd_9x19_PAMAS";
 
 // Grenades
 _grenade = "HandGrenade";
@@ -165,27 +165,27 @@ _sparebarrel = "AGM_SpareBarrel";			// For LMG/MMG Only
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "hlc_rifle_rpk";
-_ARmag = "hlc_45Rnd_762x39_m_rpk";
-_ARmag_tr = "hlc_45Rnd_762x39_t_rpk";
+_AR = "R3F_Minimi_762";
+_ARmag = "R3F_100Rnd_762x51_MINIMI";
+_ARmag_tr = "R3F_100Rnd_762x51_MINIMI";
 
 // Medium MG
-_MMG = "LMG_Zafir_F";
-_MMGmag = "150Rnd_762x51_Box";
-_MMGmag_tr = "150Rnd_762x51_Box_Tracer";
+_MMG = "hlc_lmg_M60E4";
+_MMGmag = "hlc_100Rnd_762x51_B_M60E4";
+_MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
-_RAT = "launch_RPG32_F";
-_RATmag = "RPG32_F";
+_RAT = "R3F_AT4CS";
+_RATmag = "R3F_AT4CS_Mag";
 
 // Mortar
 _MTR = "B_Mk6Mortar_Wpn";
 _MTRmount = "B_Mk6Mortar_Support";
 
 // Medium AT
-_MAT = "launch_NLAW_F";
-_MATmag1 = "NLAW_F";
-_MATmag2 = "NLAW_F";
+_MAT = "R3F_ERYX";
+_MATmag1 = "R3F_ERYX_Mag";
+_MATmag2 = "R3F_ERYX_Mag";
 
 // Surface Air
 _SAM = "launch_I_Titan_F";
@@ -410,7 +410,7 @@ switch (_typeofUnit) do
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,2];
+		_unit addmagazines [_ARmag,4];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -460,7 +460,7 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER
 	case "mmgg":
 	{
-		_unit addmagazines [_MMGmag,2];
+		_unit addmagazines [_MMGmag,6];
 		_unit addmagazines [_MMGmag_tr,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _MMG;
