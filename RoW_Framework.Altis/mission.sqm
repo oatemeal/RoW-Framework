@@ -34,7 +34,8 @@ class Mission
 		"a3_uav_f_characters_f_gamma",
 		"a3_characters_f",
 		"task_force_radio_items",
-		"agm_medical"
+		"agm_medical",
+		"TEC_CSAT"
 	};
 	addOnsAuto[]=
 	{
@@ -42,6 +43,7 @@ class Mission
 		"a3_characters_f",
 		"A3_Characters_F_Gamma",
 		"a3_uav_f_characters_f_gamma",
+		"TEC_CSAT",
 		"A3_Characters_F_OPFOR",
 		"A3_Characters_F_INDEP",
 		"A3_Characters_F_Civil",
@@ -902,7 +904,7 @@ class Mission
 					position[]={700.96356,0,566.55591};
 					id=50;
 					side="EAST";
-					vehicle="O_officer_F";
+					vehicle="TEC_O_Officer_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -917,7 +919,7 @@ class Mission
 					position[]={703.58856,0,564.31177};
 					id=51;
 					side="EAST";
-					vehicle="O_medic_F";
+					vehicle="TEC_O_Medic_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -930,7 +932,7 @@ class Mission
 					position[]={706.87762,0,564.30396};
 					id=52;
 					side="EAST";
-					vehicle="O_soldier_UAV_F";
+					vehicle="TEC_O_Soldier_UAV_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -943,7 +945,7 @@ class Mission
 					position[]={710.23309,0,564.09302};
 					id=53;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_CO_D";
@@ -963,7 +965,7 @@ class Mission
 					position[]={701.27997,0,550.75122};
 					id=54;
 					side="EAST";
-					vehicle="O_officer_F";
+					vehicle="TEC_O_Officer_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -978,7 +980,7 @@ class Mission
 					position[]={704.17059,0,548.05591};
 					id=55;
 					side="EAST";
-					vehicle="O_medic_F";
+					vehicle="TEC_O_Medic_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					rank="CORPORAL";
@@ -992,7 +994,7 @@ class Mission
 					position[]={707.15106,0,547.85083};
 					id=56;
 					side="EAST";
-					vehicle="O_soldier_UAV_F";
+					vehicle="TEC_O_Soldier_UAV_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -1005,7 +1007,7 @@ class Mission
 					position[]={710.23309,0,547.82739};
 					id=57;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_DC_D";
@@ -1025,7 +1027,7 @@ class Mission
 					position[]={725.01434,0,566.56372};
 					id=58;
 					side="EAST";
-					vehicle="O_Soldier_SL_F";
+					vehicle="TEC_O_Soldier_SL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1037,10 +1039,10 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={727.60419,0,564.90356};
+					position[]={727.60419,-0.17827728,564.90356};
 					id=59;
 					side="EAST";
-					vehicle="O_medic_F";
+					vehicle="TEC_O_Medic_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					rank="CORPORAL";
@@ -1062,7 +1064,7 @@ class Mission
 					position[]={724.99677,0,550.13013};
 					id=60;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1077,7 +1079,7 @@ class Mission
 					position[]={728.10028,0,548.30981};
 					id=61;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1090,7 +1092,7 @@ class Mission
 					position[]={731.38934,0,548.2356};
 					id=62;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1103,7 +1105,7 @@ class Mission
 					position[]={734.89325,0,548.21606};
 					id=63;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1124,7 +1126,7 @@ class Mission
 					position[]={725.487,0,534.59497};
 					id=64;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1139,7 +1141,7 @@ class Mission
 					position[]={728.40497,0,532.46997};
 					id=65;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1152,7 +1154,7 @@ class Mission
 					position[]={731.60419,0,532.32935};
 					id=66;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1165,7 +1167,7 @@ class Mission
 					position[]={735.15497,0,532.302};
 					id=67;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1186,7 +1188,7 @@ class Mission
 					position[]={725.78387,0,517.22388};
 					id=68;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1201,7 +1203,7 @@ class Mission
 					position[]={728.13934,0,514.89575};
 					id=69;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1214,7 +1216,7 @@ class Mission
 					position[]={731.41278,0,514.88794};
 					id=70;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1227,7 +1229,7 @@ class Mission
 					position[]={734.63544,0,514.57153};
 					id=71;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1248,7 +1250,7 @@ class Mission
 					position[]={751.71747,0,566.91919};
 					id=72;
 					side="EAST";
-					vehicle="O_Soldier_SL_F";
+					vehicle="TEC_O_Soldier_SL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1263,7 +1265,7 @@ class Mission
 					position[]={754.51044,0,565.03638};
 					id=73;
 					side="EAST";
-					vehicle="O_medic_F";
+					vehicle="TEC_O_Medic_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					rank="CORPORAL";
@@ -1285,7 +1287,7 @@ class Mission
 					position[]={751.82294,0,549.9231};
 					id=74;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1300,7 +1302,7 @@ class Mission
 					position[]={755.07489,0,548.40747};
 					id=75;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1313,7 +1315,7 @@ class Mission
 					position[]={758.42841,0,548.38989};
 					id=76;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1326,7 +1328,7 @@ class Mission
 					position[]={761.90887,0,548.40356};
 					id=77;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1347,7 +1349,7 @@ class Mission
 					position[]={751.612,0,534.33716};
 					id=78;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1362,7 +1364,7 @@ class Mission
 					position[]={754.77802,0,532.7395};
 					id=79;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1375,7 +1377,7 @@ class Mission
 					position[]={758.14716,0,532.70825};
 					id=80;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1388,9 +1390,8 @@ class Mission
 					position[]={761.88153,0,532.80591};
 					id=81;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
-					lock="UNLOCKED";
 					skill=0.60000002;
 					text="UnitCSAT_B2_AT";
 					init="GrpCSAT_B2 = group this; [""rat"",this] call f_fnc_assignGear;";
@@ -1409,7 +1410,7 @@ class Mission
 					position[]={751.612,0,517.38794};
 					id=82;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1424,7 +1425,7 @@ class Mission
 					position[]={754.77802,0,515.44653};
 					id=83;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1437,7 +1438,7 @@ class Mission
 					position[]={758.05731,0,515.40356};
 					id=84;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1450,7 +1451,7 @@ class Mission
 					position[]={761.79169,0,515.33325};
 					id=85;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1471,7 +1472,7 @@ class Mission
 					position[]={777.09833,0,566.72778};
 					id=86;
 					side="EAST";
-					vehicle="O_Soldier_SL_F";
+					vehicle="TEC_O_Soldier_SL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1486,7 +1487,7 @@ class Mission
 					position[]={779.57684,0,565.11841};
 					id=87;
 					side="EAST";
-					vehicle="O_medic_F";
+					vehicle="TEC_O_Medic_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					rank="CORPORAL";
@@ -1508,7 +1509,7 @@ class Mission
 					position[]={776.77802,0,549.77856};
 					id=88;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1523,7 +1524,7 @@ class Mission
 					position[]={779.68817,0,548.18091};
 					id=89;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1536,7 +1537,7 @@ class Mission
 					position[]={783.12958,0,548.16138};
 					id=90;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1549,7 +1550,7 @@ class Mission
 					position[]={786.61005,0,548.00513};
 					id=91;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1570,7 +1571,7 @@ class Mission
 					position[]={776.68817,0,534.71606};
 					id=92;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1585,7 +1586,7 @@ class Mission
 					position[]={779.5788,0,533.08325};
 					id=93;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1598,7 +1599,7 @@ class Mission
 					position[]={782.94012,0,532.97388};
 					id=94;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1611,7 +1612,7 @@ class Mission
 					position[]={786.5163,0,532.79028};
 					id=95;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1632,7 +1633,7 @@ class Mission
 					position[]={777.05927,0,517.40747};
 					id=96;
 					side="EAST";
-					vehicle="O_Soldier_TL_F";
+					vehicle="TEC_O_Soldier_TL_F";
 					player="PLAY CDG";
 					leader=1;
 					lock="UNLOCKED";
@@ -1647,7 +1648,7 @@ class Mission
 					position[]={779.78778,0,515.58716};
 					id=97;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1660,7 +1661,7 @@ class Mission
 					position[]={783.21552,0,515.41919};
 					id=98;
 					side="EAST";
-					vehicle="O_Soldier_AAR_F";
+					vehicle="TEC_O_Soldier_AAR_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1673,7 +1674,7 @@ class Mission
 					position[]={786.62567,0,515.4856};
 					id=99;
 					side="EAST";
-					vehicle="O_Soldier_LAT_F";
+					vehicle="TEC_O_Soldier_LAT_F";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1959,7 +1960,7 @@ class Mission
 					position[]={804.56512,0,566.88013};
 					id=116;
 					side="EAST";
-					vehicle="O_Soldier_AR_F";
+					vehicle="TEC_O_Soldier_AR_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -1973,7 +1974,7 @@ class Mission
 					position[]={807.67841,0,565.03638};
 					id=117;
 					side="EAST";
-					vehicle="O_Soldier_A_F";
+					vehicle="TEC_O_Soldier_A_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MMG1_AG";
@@ -1993,7 +1994,7 @@ class Mission
 					position[]={804.38544,0,549.77075};
 					id=118;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="TEC_O_Soldier_AT_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -2007,7 +2008,7 @@ class Mission
 					position[]={807.15497,0,548.41528};
 					id=119;
 					side="EAST";
-					vehicle="O_Soldier_AAT_F";
+					vehicle="TEC_O_Soldier_AAT_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MAT1_AG";
@@ -2027,7 +2028,7 @@ class Mission
 					position[]={804.68231,0,534.68091};
 					id=120;
 					side="EAST";
-					vehicle="O_engineer_F";
+					vehicle="TEC_O_Engineer_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -2041,7 +2042,7 @@ class Mission
 					position[]={807.65887,0,533.28638};
 					id=121;
 					side="EAST";
-					vehicle="O_engineer_F";
+					vehicle="TEC_O_Engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A1";
@@ -2053,7 +2054,7 @@ class Mission
 					position[]={811.18427,0,533.28638};
 					id=122;
 					side="EAST";
-					vehicle="O_engineer_F";
+					vehicle="TEC_O_Engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A2";
@@ -2065,7 +2066,7 @@ class Mission
 					position[]={814.70966,0,533.16138};
 					id=123;
 					side="EAST";
-					vehicle="O_engineer_F";
+					vehicle="TEC_O_Engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A3";
@@ -2160,7 +2161,7 @@ class Mission
 					position[]={727.43622,0,499.06372};
 					id=129;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -2179,11 +2180,11 @@ class Mission
 				class Item0
 				{
 					position[]={402.36255,0,541.73615};
-					azimut=0.6233083;
+					azimut=0.623308;
 					id=130;
 					side="GUER";
 					vehicle="I_officer_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_CO";
@@ -4266,7 +4267,7 @@ class Mission
 					position[]={726.58075,0,473.27075};
 					id=258;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4301,7 +4302,7 @@ class Mission
 					position[]={753.74872,0,499.43286};
 					id=260;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4336,7 +4337,7 @@ class Mission
 					position[]={752.68036,0,473.53638};
 					id=262;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4371,7 +4372,7 @@ class Mission
 					position[]={779.17255,0,499.39966};
 					id=264;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4406,7 +4407,7 @@ class Mission
 					position[]={778.31708,0,473.60669};
 					id=266;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4441,7 +4442,7 @@ class Mission
 					position[]={805.26825,0,499.66528};
 					id=268;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4476,7 +4477,7 @@ class Mission
 					position[]={804.41669,0,473.87231};
 					id=270;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4497,7 +4498,7 @@ class Mission
 					position[]={725.09052,0,449.09106};
 					id=271;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4511,7 +4512,7 @@ class Mission
 					position[]={728.10028,0,447.19263};
 					id=272;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4521,10 +4522,10 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={730.62567,0,446.98169};
+					position[]={730.62567,0.26059079,446.98169};
 					id=273;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV1_D";
@@ -4544,7 +4545,7 @@ class Mission
 					position[]={735.94794,0,442.00513};
 					id=274;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4558,7 +4559,7 @@ class Mission
 					position[]={738.95575,0,440.1106};
 					id=275;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4571,7 +4572,7 @@ class Mission
 					position[]={741.48309,0,439.89575};
 					id=276;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV2_D";
@@ -4591,7 +4592,7 @@ class Mission
 					position[]={751.74677,0,448.75122};
 					id=277;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4602,10 +4603,10 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={754.75653,0,446.85669};
+					position[]={754.75653,0.16247174,446.85669};
 					id=278;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4618,7 +4619,7 @@ class Mission
 					position[]={757.27997,0,446.63989};
 					id=279;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV3_D";
@@ -4638,7 +4639,7 @@ class Mission
 					position[]={762.60028,0,441.66919};
 					id=280;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4652,7 +4653,7 @@ class Mission
 					position[]={765.612,0,439.77466};
 					id=281;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4665,7 +4666,7 @@ class Mission
 					position[]={768.13544,0,439.55981};
 					id=282;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV4_D";
@@ -4685,7 +4686,7 @@ class Mission
 					position[]={777.08466,0,448.20044};
 					id=283;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4699,7 +4700,7 @@ class Mission
 					position[]={780.09247,0,446.30591};
 					id=284;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4712,7 +4713,7 @@ class Mission
 					position[]={782.61786,0,446.09106};
 					id=285;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV5_D";
@@ -4732,7 +4733,7 @@ class Mission
 					position[]={787.94012,0,441.11841};
 					id=286;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4746,7 +4747,7 @@ class Mission
 					position[]={790.95184,0,439.22388};
 					id=287;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4759,7 +4760,7 @@ class Mission
 					position[]={793.47528,0,439.00903};
 					id=288;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV6_D";
@@ -4779,7 +4780,7 @@ class Mission
 					position[]={803.737,0,447.8645};
 					id=289;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4793,7 +4794,7 @@ class Mission
 					position[]={806.74872,0,445.96997};
 					id=290;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4806,7 +4807,7 @@ class Mission
 					position[]={809.27216,0,445.75513};
 					id=291;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV7_D";
@@ -4826,7 +4827,7 @@ class Mission
 					position[]={814.59247,0,440.78247};
 					id=292;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4840,7 +4841,7 @@ class Mission
 					position[]={817.60419,0,438.88403};
 					id=293;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4853,7 +4854,7 @@ class Mission
 					position[]={820.12762,0,438.66919};
 					id=294;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_IFV8_D";
@@ -4873,7 +4874,7 @@ class Mission
 					position[]={696.83466,0,443.53638};
 					id=295;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -4887,7 +4888,7 @@ class Mission
 					position[]={699.84247,0,441.63989};
 					id=296;
 					side="EAST";
-					vehicle="O_crew_F";
+					vehicle="TEC_O_Crew_F";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
@@ -4900,7 +4901,7 @@ class Mission
 					position[]={702.36981,0,441.427};
 					id=297;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_TNK1_D";
@@ -4934,7 +4935,7 @@ class Mission
 					position[]={702.42841,0,507.57153};
 					id=299;
 					side="EAST";
-					vehicle="O_soldier_repair_F";
+					vehicle="TEC_O_Soldier_Repair_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -5916,7 +5917,7 @@ class Mission
 					position[]={701.5202,0,534.88794};
 					id=355;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="TEC_O_Soldier_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -5928,7 +5929,7 @@ class Mission
 					position[]={703.51239,0,532.49341};
 					id=356;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="TEC_O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
@@ -5939,7 +5940,7 @@ class Mission
 					position[]={706.41864,0,532.49341};
 					id=357;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="TEC_O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
@@ -5950,7 +5951,7 @@ class Mission
 					position[]={709.2663,0,532.552};
 					id=358;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="TEC_O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
