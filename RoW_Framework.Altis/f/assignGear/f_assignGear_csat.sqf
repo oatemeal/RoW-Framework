@@ -140,11 +140,11 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "B_AssaultPack_dgtl";			// carries 120, weighs 20
-_bagmedium = "B_FieldPack_ocamo";			// carries 200, weighs 30
-_baglarge =  "B_Carryall_ocamo"; 			// carries 320, weighs 40
+_bagsmall = "TEC_B_Kitbag_Arid";			// carries 120, weighs 20
+_bagmedium = "TEC_B_Bergen_Arid";			// carries 200, weighs 30
+_baglarge =  "TEC_B_Carryall_Arid"; 			// carries 320, weighs 40
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
-_baguav = "O_UAV_01_backpack_F";			// used by UAV operator
+_baguav = "TEC_B_O_UAV_Arid";			// used by UAV operator
 
 // ====================================================================================
 
@@ -212,8 +212,8 @@ _specOp = [];
 // The outfit-piece is randomly selected from the array for each unit
 
 // Woodland-Hex
-_baseUniform = ["U_O_CombatUniform_ocamo"];
-_baseHelmet = ["H_HelmetO_ocamo"];
+_baseUniform = ["TEC_U_O_Arid"];
+_baseHelmet = ["TEC_H_Penah_Arid"];
 _baseGlasses = [];
 
 // Urban
@@ -221,9 +221,9 @@ _baseGlasses = [];
 //_baseHelmet = ["H_HelmetO_oucamo"];
 
 // Armored vests
-_lightRig = ["V_HarnessO_brn"];
-_mediumRig = ["V_HarnessOGL_brn"]; 	// default for all infantry classes
-_heavyRig = ["V_HarnessOGL_brn"];
+_lightRig = ["TEC_V_PC_Light_Black"];
+_mediumRig = ["TEC_V_PC_Heavy_Black"]; 	// default for all infantry classes
+_heavyRig = ["TEC_V_PC_Heavy_Black"];
 
 // Diver
 _diverUniform =  ["U_O_Wetsuit"];
@@ -232,9 +232,9 @@ _diverRig = ["V_RebreatherIR"];
 _diverGlasses = ["G_Diving"];
 
 // Pilot
-_pilotUniform = ["U_O_PilotCoveralls"];
-_pilotHelmet = ["H_PilotHelmetHeli_O"];
-_pilotRig = ["V_HarnessO_brn"];
+_pilotUniform = ["TEC_U_O_Arid_Shortsleeve"];
+_pilotHelmet = ["TEC_H_CrewHelmet"];
+_pilotRig = ["TEC_V_PC_Light_Black"];
 _pilotGlasses = [];
 
 // Crewman
