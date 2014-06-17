@@ -35,7 +35,7 @@ class Mission
 		"a3_characters_f",
 		"task_force_radio_items",
 		"agm_medical",
-		"TEC_CSAT"
+		"TEC_CSAT",
 	};
 	addOnsAuto[]=
 	{
@@ -2161,7 +2161,7 @@ class Mission
 					position[]={727.43622,0,499.06372};
 					id=129;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4267,7 +4267,7 @@ class Mission
 					position[]={726.58075,0,473.27075};
 					id=258;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4302,7 +4302,7 @@ class Mission
 					position[]={753.74872,0,499.43286};
 					id=260;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4337,7 +4337,7 @@ class Mission
 					position[]={752.68036,0,473.53638};
 					id=262;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4372,7 +4372,7 @@ class Mission
 					position[]={779.17255,0,499.39966};
 					id=264;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4407,7 +4407,7 @@ class Mission
 					position[]={778.31708,0,473.60669};
 					id=266;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4442,7 +4442,7 @@ class Mission
 					position[]={805.26825,0,499.66528};
 					id=268;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4477,7 +4477,7 @@ class Mission
 					position[]={804.41669,0,473.87231};
 					id=270;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -4935,7 +4935,7 @@ class Mission
 					position[]={702.42841,0,507.57153};
 					id=299;
 					side="EAST";
-					vehicle="TEC_O_Soldier_Repair_F";
+					vehicle="O_helicrew_F";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;

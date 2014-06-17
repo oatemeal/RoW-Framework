@@ -100,6 +100,15 @@ if (_faction == "tec_csat") then {
 
 // ====================================================================================
 
+// GEAR: OPFOR > CSAT
+// The following block of code executes only if the unit is in a CSAT slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction == "opf_f") then {
+	#include "f_assignGear_csat.sqf"
+};
+// ====================================================================================
+
 // GEAR: INDEPEDENT > AAF
 // The following block of code executes only if the unit is in a AAF slot; it
 // automatically includes a file which contains the appropriate equipment data.
