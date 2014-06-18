@@ -169,7 +169,7 @@ switch (_unitfaction) do
 // MARKERS: OPFOR > CSAT Alt
 // Markers seen by players in CSAT Alt slots.
 
-	case "opf_f":
+	case "tec_csat":
 	{
 		["GrpCSAT_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
 		["GrpCSAT_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
