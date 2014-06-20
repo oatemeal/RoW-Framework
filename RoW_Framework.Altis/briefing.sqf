@@ -76,7 +76,7 @@ if (_unitfaction in ["blu_g_f","ind_g_f","opf_g_f"]) exitwith {
 // The following block of code executes only if the player is in a CSAT slot; it
 // automatically includes a file which contains the appropriate briefing data.
 
-if (_unitfaction == "tec_csat") exitwith {
+if (_unitfaction == "opf_g") exitwith {
 
 #include "f\briefing\f_briefing_csat.sqf"
 
