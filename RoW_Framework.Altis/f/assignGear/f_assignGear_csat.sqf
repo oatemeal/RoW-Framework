@@ -166,9 +166,9 @@ _ARmag = "hlc_30Rnd_762x39_b_ak";
 _ARmag_tr = "hlc_30Rnd_762x39_t_ak";
 
 // Medium MG
-_MMG = "hlc_rifle_rpk";
-_MMGmag = "hlc_30Rnd_762x39_b_ak";
-_MMGmag_tr = "hlc_30Rnd_762x39_t_ak";
+_MMG = "hlc_lmg_M60E4";
+_MMGmag = "hlc_100Rnd_762x51_B_M60E4";
+_MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
 _RAT = "RPG7V";
