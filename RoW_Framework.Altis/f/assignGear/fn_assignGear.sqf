@@ -62,12 +62,6 @@ private [
 "_chemgreen","_chemred","_chemblue","_chemyellow"
 ];
 
-// ====================================================================================
-
-// This variable simply tracks the progress of the gear assignation process, for other
-// scripts to reference.
-
-_unit setVariable ["f_var_assignGear_done",false,true];
 
 // ====================================================================================
 
@@ -100,10 +94,19 @@ if (_faction == "blu_f") then {
 // The following block of code executes only if the unit is in a CSAT slot; it
 // automatically includes a file which contains the appropriate equipment data.
 
-if (_faction == "opf_f") then {
+if (_faction == "tec_csat") then {
 	#include "f_assignGear_csat.sqf"
 };
 
+// ====================================================================================
+
+// GEAR: OPFOR > CSAT
+// The following block of code executes only if the unit is in a CSAT slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction == "opf_f") then {
+	#include "f_assignGear_csat.sqf"
+};
 // ====================================================================================
 
 // GEAR: INDEPEDENT > AAF
@@ -125,11 +128,15 @@ if (_faction in ["blu_g_f","opf_g_f","ind_g_f"]) then {
 };
 
 // ====================================================================================
+// GEAR: ACRE
+// The following block of code executes only if the ACRE parameter is set to true; it
+// automatically includes a file which contains the appropriate equipment data.
+_useACRE = "f_param_acre" call BIS_fnc_getParamValue;
 
-// This variable simply tracks the progress of the gear assignation process, for other
-// scripts to reference.
-
-_unit setVariable ["f_var_assignGear_done",true,true];
+if (_useACRE == 1) then {
+	_this execVM "f\assignGear\acre\f_ACRE_assignGear.sqf";
+};
+// ====================================================================================
 
 // DEBUG
 
@@ -146,4 +153,14 @@ if (isNil "_carbine") then { //_carbine should exist unless no faction has been 
 	};
 };
 
+// ====================================================================================
+
+// SET CUSTOM FREQUENCIES
+// For TvTs, both sides need to have seperated radio channels, for gameplay purposes.
+// This script adds a predetermined value (0.2, 0.4 or 0.6) to each radio frequency, depending on the unit's side.
+_useACRE = "f_param_acre" call BIS_fnc_getParamValue;
+
+if (_useACRE == 1) then {
+	_setFreqsHandle = _this execVM "f\assignGear\acre\f_ACRE_setFrequencies.sqf";
+};
 // ====================================================================================
