@@ -16,8 +16,8 @@ class Header
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
 onLoadName = "RoW Framework";
-onLoadMission = "Made with the RoW Development Framework";
-author = "RoW Comunity";
+onLoadMission = "Made with the RoW Mission  Framework";
+author = "RoW Community";
 loadScreen = "logo.paa";
 
 // ============================================================================================
