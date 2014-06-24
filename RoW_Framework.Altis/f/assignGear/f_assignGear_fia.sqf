@@ -178,8 +178,8 @@ _MMGmag = "hlc_100Rnd_762x51_B_M60E4";
 _MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
-_RAT = "RPG7V";
-_RATmag = "PG7VL";
+_RAT = "launch_RPG32_F";
+_RATmag = "RPG32_F";
 
 // Mortar
 _MTR = "B_Mk6Mortar_Wpn";
