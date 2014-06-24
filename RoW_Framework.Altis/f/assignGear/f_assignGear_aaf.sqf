@@ -2,7 +2,7 @@
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
-// DEFINE EQUIPMENT TABLES
+// DEFINE EQUIPMENT TABLES --
 // The blocks of code below identifies equipment for this faction
 //
 // Defined loadouts:
@@ -44,7 +44,7 @@
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
 // ATTACHMENTS - PRIMARY
-_attach1 = "acc_pointer_IR";	// IR Laser
+_attach1 = "acc_pointer_IR";	// IR Lasers
 _attach2 = "acc_flashlight";	// Flashlight
 
 _silencer1 = "muzzle_snds_M";	// 5.56 suppressor
