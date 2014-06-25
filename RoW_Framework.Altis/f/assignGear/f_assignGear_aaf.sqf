@@ -278,15 +278,16 @@ if (_isMan) then {
 		_unit unassignItem _nvg;
 		_unit removeItem _nvg;
 	};
-	// uncomment to remove nvgoogles
+	 uncomment to remove nvgoogles
 	_unit linkItem _nvg;					// add universal NVG for this faction
 
-	//removeAllItems _unit;						// remove default items: map, compass, watch, radio (and GPS for team/squad leaders)
-	//_unit linkItem "ItemGPS"; 				// add gps to this faction
-	//_unit linkItem "ItemMap";
-	//_unit linkItem "ItemCompass";
+	removeAllItems _unit;						// remove default items: map, compass, watch, radio (and GPS for team/squad leaders)
+	_unit linkItem "ItemGPS"; 				// add gps to this faction
+	_unit linkItem "ItemMap";
+	_unit linkItem "ItemCompass";
 	//_unit linkItem "ItemRadio";
-	//_unit linkItem "ItemWatch";
+	_unit linkItem "ItemWatch";
+	_unit linkItem "tf_anprc148jem";
 
 };
 
