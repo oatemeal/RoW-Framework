@@ -5,7 +5,7 @@
 // DEFINE EQUIPMENT TABLES
 // The blocks of code below identifies equipment for this faction
 //
-// Defined loadouts:
+// Defined loadout:
 //		co			- commander
 //		dc 			- deputy commander / squad leader
 //		m 			- medic
