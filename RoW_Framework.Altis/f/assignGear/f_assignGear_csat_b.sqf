@@ -7,6 +7,15 @@ case "m":
 {
 	_unit addBackpack _bagmedium;
 	clearMagazineCargoGlobal (unitBackpack _unit);
+	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];// DEFINE BACKPACK CONTENTS
+// The following blocks of code define different backpack loadouts. These are then
+// called from the role loadouts.
+
+// BACKPACK: MEDIC
+case "m":
+{
+	_unit addBackpack _bagmedium;
+	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];
 
 };
@@ -42,8 +51,8 @@ case "ar":
 {	
 	_unit addBackpack _bagmedium;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 4];
-	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_Tr, 4];
+	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_Tr, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];	
 };
@@ -55,8 +64,8 @@ case "aar":
 	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_riflemag, 3];
 	(unitBackpack _unit) addMagazineCargoGlobal [_riflemag_tr, 2];
-	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 4];
-	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 4];
+	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];	
 };
@@ -101,7 +110,7 @@ case "mmg":
 	_unit addBackpack _bagmedium;
 	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 2];
-	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 1];	
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];
 };
@@ -113,8 +122,8 @@ case "mmgag":
 	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_riflemag, 4];
 	(unitBackpack _unit) addMagazineCargoGlobal [_riflemag_tr, 3];
-	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
-	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];	
 };

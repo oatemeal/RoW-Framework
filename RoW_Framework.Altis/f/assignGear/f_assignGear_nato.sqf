@@ -145,7 +145,7 @@ _bagsmall = "B_AssaultPack_mcamo";		// carries 120, weighs 20
 _bagmedium = "B_FieldPack_khk";			// carries 240, weighs 30
 _baglarge =  "B_Carryall_mcamo"; 		// carries 320, weighs 40
 _bagmediumdiver =  "B_AssaultPack_blk";	// used by divers
-_baguav = "B_UAV_01_backpack_F";		// used by UAV operator
+_baguav = " B_MAV_B_BACKPACK";		// used by UAV operator
 _bagTFARlongRANGE = "tf_rt1523g"; // used by ground infantry leaders
 _bagTFARairBORNE = "tf_anarc210"; // used by pilots and other airborne troops
 
@@ -413,7 +413,8 @@ switch (_typeofUnit) do
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,4];
+		_unit addmagazines [_ARmag,2];
+		_unit addmagazines [_ARmag_tr,1];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];		
 		_unit addmagazines [_smokegrenade,2];
