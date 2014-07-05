@@ -7,15 +7,6 @@ case "m":
 {
 	_unit addBackpack _bagmedium;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];// DEFINE BACKPACK CONTENTS
-// The following blocks of code define different backpack loadouts. These are then
-// called from the role loadouts.
-
-// BACKPACK: MEDIC
-case "m":
-{
-	_unit addBackpack _bagmedium;
-	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 3];
 
 };
