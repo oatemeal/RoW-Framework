@@ -7,7 +7,7 @@ class Header
 {
 	gameType = Coop;
 	minPlayers = 1;
-	maxPlayers = 405;
+	maxPlayers = 453;
 };
 
 // ============================================================================================
@@ -16,8 +16,8 @@ class Header
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
 onLoadName = "RoW Framework";
-onLoadMission = "Made with the RoW Development Framework";
-author = "RoW Comunity";
+onLoadMission = "Made with the RoW Mission Framework";
+author = "*** Insert mission author name here. ***";
 loadScreen = "logo.paa";
 
 // ============================================================================================
@@ -128,12 +128,12 @@ class Params
 
     class f_param_backpacks
     {
-            title = "$STR_f_param_loadouts";
-            values[] = {0,1,2};
-            texts[] = {"Light","Medium","Heavy"};
-            default = 1;
-            code = "f_param_backpacks = %1";
-    };
+    	title = "$STR_f_param_loadouts";
+		values[] = {0,1,2};
+		texts[] = {"Light","Medium","Heavy"};
+		default = 1;
+		code = "f_param_backpacks = %1";
+	  };
 
 // ============================================================================================
 
@@ -144,10 +144,24 @@ class Params
     {
             title = "Radio System";
             values[] = {0,1,2};
-            texts[] = {"Off","ACRE", "TFR"};
-            default = 0;
+            texts[] = {"Off","ACRE","TFR"};
+            default = 2;
             code = "f_var_radios = %1";
     };
+
+// ============================================================================================
+
+// F3 - Medical Systems Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+//    class f_param_medical
+//    {
+//           title = "Medical System";
+//            values[] = {0,1,2};
+//            texts[] = {"Arma 3 Default","F3 Simple Wounding System","Authentic Gameplay Mod"};
+//            default = 0;
+//            code = "f_var_medical = %1";
+//    };
 
 // ============================================================================================
 
@@ -238,13 +252,13 @@ class Params
 // F3 - Caching
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-	class f_param_caching
-	{
-		title = "Cache AI outside distance (m)";
-		values[] = {0,600,800,1000,1500,2000};
-		default = 0;
-		code = "f_param_caching = %1";
-	};
+//	class f_param_caching
+//	{
+//		title = "Cache AI outside distance (m)";
+//		values[] = {0,600,800,1000,1500,2000};
+//		default = 0;
+//		code = "f_param_caching = %1";
+//	};
 
 // ============================================================================================
 
