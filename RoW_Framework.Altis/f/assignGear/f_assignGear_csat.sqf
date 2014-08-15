@@ -66,7 +66,7 @@ _scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
 _scope4 = "hlc_optic_suit";		// Suit Optic
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach2,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -170,13 +170,18 @@ _bagTFARlongRANGE = "tf_mr3000"; // used by ground infantry leaders
 
 // ====================================================================================
 
-// MEDICAL
-_bandage = "AGM_Bandage";					// 5 Per Soldier, 10 Per TL, 20 Per Medic
-_epipen = "AGM_Epipen";  					// 1 Per Soldier, 1 Per TL, 10 Per Medic
-_morphine = "AGM_Morphine";					// 1 Per Soldier, 2 Per TL, 15 Per Medic
-_bloodbag = "AGM_Bloodbag";					// 0 Per Soldier, 0 Per TL, 5 Per Medic
-_earplugs = "AGM_EarBuds";					// For Every Soldier
-_sparebarrel = "AGM_SpareBarrel";			// For LMG/MMG Only
+// AGM Stuff
+_bandage = "AGM_Bandage";					
+_epipen = "AGM_Epipen";  					
+_morphine = "AGM_Morphine";					
+_bloodbag = "AGM_Bloodbag";					
+_earplugs = "AGM_EarBuds";					
+_sparebarrel = "AGM_SpareBarrel";			
+_defusal = "AGM_DefusalKit";
+_clacker = "AGM_Clacker";
+_vector = "AGM_Vector";
+_kestrel = "AGM_ItemKestrel";
+_cabletie = "AGM_CableTie";
 
 // ====================================================================================
 
@@ -382,6 +387,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
@@ -405,6 +411,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
@@ -440,6 +447,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["ftl"] call _backpack;
 	};
@@ -836,7 +844,7 @@ switch (_typeofUnit) do
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
 	};
-
+	
 // LOADOUT: ENGINEER FTL (DEMO)
 	case "engftl":
 	{
@@ -851,6 +859,8 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _clacker;
+		_unit addItem _defusal;
 		["engftl"] call _backpack;
 	};	
 	
@@ -868,6 +878,8 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _clacker;
+		_unit addItem _defusal;
 		["eng"] call _backpack;
 	};
 
@@ -885,6 +897,8 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _clacker;
+		_unit addItem _defusal;
 		["engm"] call _backpack;
 	};
 
