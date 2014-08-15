@@ -60,8 +60,8 @@ _attach2 = "acc_flashlight";	// Flashlight
 _silencer1 = "muzzle_snds_M";	// 5.56 suppressor
 _silencer2 = "muzzle_snds_H";	// 6.5 suppressor
 
-_scope1 = "RH_eotech553";	// Holosight
-_scope2 = "optic_hamr";			// RCO Scope
+_scope1 = "RH_ta31rco_2D";	// Holosight
+_scope2 = "optic_DMS";			// RCO Scope
 _scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
 _scope4 = "hlc_optic_artel_m14"; // m14 Redfield Artel
 
@@ -88,7 +88,7 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "RH_m4a1_ris";
+_rifle = "RH_M16A4";
 _riflemag = "30rnd_556x45_STANAG";
 _riflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 
@@ -108,7 +108,7 @@ _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
 // Rifle with GL and HE grenades (CO, DC, FTLs)
-_glrifle = "RH_m4a1_ris_m203";
+_glrifle = "RH_M16A4gl";
 _glriflemag = "30rnd_556x45_STANAG";
 _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 _glmag = "1Rnd_HE_Grenade_shell";
@@ -170,13 +170,18 @@ _bagTFARlongRANGE = "tf_rt1523g"; // used by ground infantry leaders
 
 // ====================================================================================
 
-// MEDICAL
-_bandage = "AGM_Bandage";					// 5 Per Soldier, 10 Per TL, 20 Per Medic
-_epipen = "AGM_Epipen";  					// 1 Per Soldier, 1 Per TL, 10 Per Medic
-_morphine = "AGM_Morphine";					// 1 Per Soldier, 2 Per TL, 15 Per Medic
-_bloodbag = "AGM_Bloodbag";					// 0 Per Soldier, 0 Per TL, 5 Per Medic
-_earplugs = "AGM_EarBuds";					// For Every Soldier
-_sparebarrel = "AGM_SpareBarrel";			// For LMG/MMG Only
+// AGM Stuff
+_bandage = "AGM_Bandage";					
+_epipen = "AGM_Epipen";  					
+_morphine = "AGM_Morphine";					
+_bloodbag = "AGM_Bloodbag";					
+_earplugs = "AGM_EarBuds";					
+_sparebarrel = "AGM_SpareBarrel";			
+_defusal = "AGM_DefusalKit";
+_clacker = "AGM_Clacker";
+_vector = "AGM_Vector";
+_kestrel = "AGM_ItemKestrel";
+_cabletie = "AGM_CableTie";
 
 // ====================================================================================
 
@@ -375,6 +380,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
@@ -398,6 +404,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
@@ -433,6 +440,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
+		_unit addItem _cabletie;
 		_attachments = [_attach2,_scope2];
 		["ftl"] call _backpack;
 	};
