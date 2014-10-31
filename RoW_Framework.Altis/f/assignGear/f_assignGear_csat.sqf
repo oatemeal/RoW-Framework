@@ -60,7 +60,7 @@ _attach2 = "acc_flashlight";	// Flashlight
 _silencer1 = "muzzle_snds_M";	// 5.56 suppressor
 _silencer2 = "muzzle_snds_H";	// 6.5 suppressor
 
-_scope1 = "optic_sud_Krechet";	// Krechet
+_scope1 = "rhs_acc_pkas";	// Krechet
 _scope2 = "optic_hamr";			// RCO
 _scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
 _scope4 = "hlc_optic_suit";		// Suit Optic
@@ -88,14 +88,14 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "arifle_SUD_AK107";
-_riflemag = "30Rnd_545x39_AK107";
-_riflemag_tr = "30Rnd_545x39_AK107";
+_rifle = "rhs_weap_ak74m";
+_riflemag = "rhs_30Rnd_545x39_AK";
+_riflemag_tr = "rhs_30Rnd_545x39_7n22_AK";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "arifle_SUD_AK107";
-_carbinemag = "30Rnd_545x39_AK107";
-_carbinemag_tr = "30Rnd_545x39_AK107";
+_carbine = "rhs_weap_ak74m";
+_carbinemag = "rhs_30Rnd_545x39_AK";
+_carbinemag_tr = "rhs_30Rnd_545x39_7n22_AK";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
 _smg = "hlc_rifle_hk53";
@@ -108,25 +108,25 @@ _diverMag1 = "30Rnd_556x45_Stanag";
 _diverMag2 = "20Rnd_556x45_UW_mag";
 
 // Rifle with GL and HE grenades (CO, DC, FTLs)
-_glrifle = "arifle_SUD_AK107_GL";
-_glriflemag = "30Rnd_545x39_AK107";
-_glriflemag_tr = "30Rnd_545x39_AK107";
-_glmag = "1Rnd_HE_Grenade_shell";
+_glrifle = "rhs_weap_ak74m_gp25";
+_glriflemag = "rhs_30Rnd_545x39_AK";
+_glriflemag_tr = "rhs_30Rnd_545x39_7n22_AK";
+_glmag = "rhs_VOG25";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glsmokewhite = "1Rnd_Smoke_Grenade_shell";
-_glsmokegreen = "1Rnd_SmokeGreen_Grenade_shell";
-_glsmokered = "1Rnd_SmokeRed_Grenade_shell";
+_glsmokewhite = "rhs_GRD40_White";
+_glsmokegreen = "rhs_GRD40_Green";
+_glsmokered = "rhs_GRD40_Red";
 
 // Flares for FTLs, Squad Leaders, etc
-_glflarewhite = "UGL_FlareWhite_F";
-_glflarered = "UGL_FlareRed_F";
+_glflarewhite = "rhs_VG40OP_white";
+_glflarered = "rhs_VG40OP_red";
 _glflareyellow = "UGL_FlareYellow_F";
-_glflaregreen = "UGL_FlareGreen_F";
+_glflaregreen = "rhs_VG40OP_green";
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = "hgun_Rook40_F";
-_pistolmag = "16Rnd_9x21_Mag";
+_pistol = "rhs_weap_pya";
+_pistolmag = "rhs_mag_9x19_17";
 
 // Grenades
 _grenade = "HandGrenade";
@@ -188,18 +188,18 @@ _cabletie = "AGM_CableTie";
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "LMG_SUD_RPK107";
-_ARmag = "75Rnd_545x39_RPK107";
-_ARmag_tr = "75Rnd_545x39_RPK107";
+_AR = "BWA3_MG4";
+_ARmag = "BWA3_200Rnd_556x45";
+_ARmag_tr = "BWA3_200Rnd_556x45";
 
 // Medium MG
-_MMG = "LMG_SUD_Pecheneg_M";
-_MMGmag = "100Rnd_762x54_PK";
-_MMGmag_tr = "100Rnd_762x54_PK";
+_MMG = "rhs_weap_pkp";
+_MMGmag = "rhs_100Rnd_762x54mmR";
+_MMGmag_tr = "rhs_100Rnd_762x54mmR_green";
 
 // Rifleman AT
-_RAT = "launch_RPG7V_F";
-_RATmag = "PG7V_F";
+_RAT = "rhs_weap_rpg7";
+_RATmag = "rhs_rpg7_PG7VL_mag";
 
 // Medium AT
 _MAT = "launch_RPG32_F";
@@ -388,7 +388,6 @@ switch (_typeofUnit) do
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
 		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
 
@@ -412,7 +411,6 @@ switch (_typeofUnit) do
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
 		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
 		["g"] call _backpack;
 	};
 
@@ -448,7 +446,6 @@ switch (_typeofUnit) do
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
 		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
 		["ftl"] call _backpack;
 	};
 

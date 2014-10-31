@@ -199,3 +199,35 @@ f_var_cachingAggressiveness = 2;
 [] execVM "f\medical\medical_init.sqf";
 
 // ====================================================================================
+
+// MCC STUFF
+
+//--------------------- Who can access MCC leave "all" for everbody --------------------------------
+//Should be MCC_allowedPlayers = ["12321","1321123"]; Host or server admin will always have access
+MCC_allowedPlayers = ["12321","1321123"];
+
+//--------------------Enable or disable MCC screens -------------------------------------------------------
+//Allow start location dialog on JIP or after respawn if disabled player will be teleported to start location without being able to choose where to spawn
+MCC_openRespawnMenu = false; //false - disabled
+
+//allow Squad Leader PDA (Mark enemy forces, call for support, order constructions of FOB and military assets - need atleast one more soldier in the player group)
+MCC_allowsqlPDA = false; //false - disabled
+
+//allow Commander Console (One per side. Control AI forces, issue WP to friendly players, call support, control UAV, AC-130 and artillery, allow building base)
+MCC_allowConsole = false; //false - disabled
+
+//allow squad menu (Enable opening/renaming/changing/locking squads in game and teleport to your squad mate after respaw, also allowing the players to be voted to commanders)
+MCC_allowSquadDialog = false; //false - disabled
+MCC_allowSquadDialogCamera = false; //Allow watching the player's squad members on squad dialog
+
+//allow MCC logistics (transport resources around from HQ to the battlefield - need to be the driver of NATO,CSAT or GUER open transport truck - open with MCC interaction key)
+MCC_allowlogistics = false;  //false - disabled
+
+// Set to true to activate survival mode - enable scavange for loot to survive
+MCC_surviveMod = false; 
+
+//How long in days(24H-game time) will it take for spawn position to refresh
+MCC_surviveModRefresh = 1; 
+
+//Disable interaction Option
+MCC_interaction = false;

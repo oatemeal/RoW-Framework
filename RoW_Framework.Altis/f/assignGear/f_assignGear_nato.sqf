@@ -125,8 +125,8 @@ _glflareyellow = "UGL_FlareYellow_F";
 _glflaregreen = "UGL_FlareGreen_F";
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = "R3F_PAMAS";
-_pistolmag = "R3F_15Rnd_9x19_PAMAS";
+_pistol = "BWA3_P8";
+_pistolmag = "BWA3_15Rnd_9x19_P8";
 
 // Grenades
 _grenade = "HandGrenade";
@@ -188,9 +188,9 @@ _cabletie = "AGM_CableTie";
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "R3F_Minimi";
-_ARmag = "R3F_200Rnd_556x45_MINIMI";
-_ARmag_tr = "R3F_200Rnd_556x45_MINIMI";
+_AR = "rhs_weap_m249_pip";
+_ARmag = "rhsusf_100Rnd_556x45_soft_pouch";
+_ARmag_tr = "rhsusf_100Rnd_556x45_soft_pouch";
 
 // Medium MG
 _MMG = "hlc_lmg_M60E4";
@@ -198,13 +198,13 @@ _MMGmag = "hlc_100Rnd_762x51_B_M60E4";
 _MMGmag_tr = "hlc_100Rnd_762x51_T_M60E4";
 
 // Rifleman AT
-_RAT = "R3F_AT4CS";
-_RATmag = "R3F_AT4CS_Mag";
+_RAT = "rhs_weap_M136";
+_RATmag = "rhs_m136_mag";
 
 // Medium AT
-_MAT = "R3F_ERYX";
-_MATmag1 = "R3F_ERYX_Mag";
-_MATmag2 = "R3F_ERYX_Mag";
+_MAT = "NLAW_F";
+_MATmag1 = "H_RacingHelmet_3_F";
+_MATmag2 = "H_RacingHelmet_3_F";
 
 // Surface Air
 _SAM = "launch_B_Titan_F";
@@ -380,8 +380,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
-		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
+		_unit addItem _cabletie;		
 		["g"] call _backpack;
 	};
 
@@ -404,8 +403,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
-		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
+		_unit addItem _cabletie;		
 		["g"] call _backpack;
 	};
 
@@ -440,8 +438,7 @@ switch (_typeofUnit) do
 		_unit addItem _morphine;
 		_unit addItem _epipen;
 		_unit addItem _earplugs;
-		_unit addItem _cabletie;
-		_attachments = [_attach2,_scope2];
+		_unit addItem _cabletie;		
 		["ftl"] call _backpack;
 	};
 
