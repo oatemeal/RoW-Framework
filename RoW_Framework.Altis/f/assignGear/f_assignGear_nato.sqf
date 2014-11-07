@@ -202,9 +202,9 @@ _RAT = "rhs_weap_M136";
 _RATmag = "rhs_m136_mag";
 
 // Medium AT
-_MAT = "NLAW_F";
-_MATmag1 = "H_RacingHelmet_3_F";
-_MATmag2 = "H_RacingHelmet_3_F";
+_MAT = "launch_NLAW_F";
+_MATmag1 = "NLAW_F";
+_MATmag2 = "NLAW_F";
 
 // Surface Air
 _SAM = "launch_B_Titan_F";
